@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a1z26 Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>a1z26 Translator</h1>
+    <p>The A1Z26 cipher is a simple substitution cipher that maps each letter of the alphabet to its corresponding numerical position: A=1, B=2, C=3, and so on up to Z=26. This method translates alphabetic characters into numbers and can also decode numbers back into letters. It's a straightforward cipher often used for educational purposes to demonstrate basic encryption and decryption techniques. The A1Z26 cipher is not suitable for secure communication due to its simplicity, but it serves as a fundamental example in the study of cryptography.</p>
+    <p>There are many other ciphers in the world, most of which are also easy to learn, however for security purposes and secure communication, go for a complicated cipher like Vigenere, hexadecimal, baconian and octal.</p>
+    <span id="decrypt">
+        <button id="decrypt-button" onclick="decodeA1Z26()">Decrypt Text</button>
+        <button id="encrypt-button" onclick="encodeA1Z26()">Encrypt Text</button>
+        <textarea name="" id="inputText"></textarea>
+    </span>
+    <p id="output">The encrypted/decrpted text will be shown here.</p>
+    <a href="https://planetcalc.com/4884/">Click here to learn more about the a1z26 cipher.</a>
+    <p>Here is the list of the letter numbers.</p>
+    <div class="number-list">
+        <p>A = 1, B = 2, C = 3, D = 4, E = 5, F = 6, G = 7, H = 8, I = 9, J = 10</p>
+        <p>K = 11, L = 12, M = 13, N = 14, O = 15, P = 16, Q = 17, R = 18, S = 19, T = 20</p>
+        <p>U = 21, V = 22, W = 23, X = 24, Y = 25, Z = 26</p>
+    </div>
+    <h1>Purposes Of the A1Z26 Cipher</h1>
+    <p>The primary purposes of the A1Z26 cipher are educational and illustrative. It introduces the basic concept of substitution ciphers, making it an excellent tool for teaching fundamental cryptographic principles. By converting letters to numbers and vice versa, it helps learners understand how data can be transformed and encoded. Additionally, the A1Z26 cipher is often used in puzzles, recreational cryptography, and escape rooms due to its simplicity and ease of implementation. While it lacks security for serious applications, it serves as a stepping stone to more complex cryptographic methods, fostering an initial understanding of how encryption and decryption processes work.</p>
+</body>
+</html>
